@@ -1,4 +1,4 @@
-# Homework Assignment #6: Advanced Loops
+# Homework Assignment #6: Advanced Loopsdd
 
 def gameBoard(rows, columns):
     for r in range (rows):
