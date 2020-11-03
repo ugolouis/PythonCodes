@@ -12,3 +12,6 @@ for i in range(5, 0, -1):
 # create square on rectangle
 for i in range (1, 5):
     print("c" * 11)
+
+    for i in range (1, 5):
+    print("c" * 11)
