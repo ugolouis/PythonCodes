@@ -43,21 +43,47 @@
 # step 4
 # delete file
 
-import os
+# import os
 
-os.remove("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt") # remove file without checking
+# os.remove("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt") # remove file without checking
 
-# check if file exist before removing
-if os.path.exists("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt"):
-    print("File exist")
-    os.remove("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt")
-else:
-    print("File does not exist")
+# # check if file exist before removing
+# if os.path.exists("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt"):
+#     print("File exist")
+#     os.remove("C:\\Users\LOzougwu\Desktop\W3Schools\TestData3.txt")
+# else:
+#     print("File does not exist")
 
 
-# remove folder
+# # remove folder
 
-import os
+# import os
 
-os.rmdir("C:\\Users\LOzougwu\Desktop\W3Schools")
+# os.rmdir("C:\\Users\LOzougwu\Desktop\W3Schools")
+
+# Step 5
+# append contents of one file into another file
+
+# appendFile = open("C:\\Users\LOzougwu\Desktop\W3Schools\TestData2.txt", "r")
+# myvar = appendFile.read()
+# #print(myvar)
+
+# File = open("C:\\Users\LOzougwu\Desktop\W3Schools\TestData1.txt", "a")
+# File.write("\n" + myvar )
+# File.close()
+
+# File = open("C:\\Users\LOzougwu\Desktop\W3Schools\TestData1.txt")
+# #print(File.read())
+
+# # You can also print value of File above line by line using loop
+# for line in File:
+#     print(line, end="")
+
+
+# Step 6
+# Using the with keyword
+
+with open("C:\\Users\LOzougwu\Desktop\W3Schools\TestData1.txt", "r") as text3File:
+    for line in text3File:
+        print(line, end="")
 
